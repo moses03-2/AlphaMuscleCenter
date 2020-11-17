@@ -7,16 +7,14 @@
 header{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Gymochmotion.jpg);
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.8)),url(Gymochmotion.jpg);
     background-position: center;
     background-size: cover;
-    padding-left: 8%;
-    padding-right: 8%;
-    box-sizing: border-box;
+    
+    
 }
 
 nav{
-    
     padding: 3%;
 }
 
@@ -25,7 +23,9 @@ nav ul{
     width: 50%;
     text-align: center;
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: space-around;
+    padding: 0%;
+    min-width: 350px;
 }
 
 nav ul li{
@@ -38,31 +38,31 @@ nav ul li{
     text-decoration: none;
 }
 
+nav ul li a{
+    padding: 1%;
+}
+
 .rubrik{
     color: white;
     position: absolute;
     top: 35%;
     left: 10%;
-    border: 3px solid black;
 }
 
 .rubrik h1{
     font-size: 50px;
     padding-bottom: 25px;
-    border: 3px solid white;
 }
 
 .rubrik p{
     font-size: clamp(1.25rem, 1.75vw, 1.5rem);
     text-align: justify;
     padding-right: 60%;
-    border: 3px solid blue;
 }
 
 .button{
     padding-top: 15px;
     position: absolute;
-    border: 3px solid red;
     
 }
 
@@ -130,7 +130,7 @@ nav ul li{
     display: flex;
 }
 
-/*.card{
+.card{
     position: relative;
     width: 200px;
     height: 230px;
@@ -145,7 +145,7 @@ nav ul li{
     background-position: cover;
     transition: 0.5s;
     color: white;
-}*/
+}
 
 h2{
     background: grey;
@@ -189,6 +189,7 @@ h2{
         padding: 0%;
     }
 
+
     .rubrik p{
         top: 15%;
         left: 0%;
@@ -200,29 +201,70 @@ h2{
     }
 
     .button{
-        left: 0%;
-        margin: 1rem auto;
-        width: 98%;
-        text-align: center;
-        justify-content: center;
-        padding: 0%;  
+        width: 100%
     }
 
-    
+    .yttre{
+        margin: 0 auto;
+    }
 
     .info{
         left: 0%;
-        margin: 2rem auto;
-        width: 100%;
-        justify-content: center;
+        width: 99%;
+        top: 60%;
+        
     }
 
+    a{
+        justify-content: center;
+        margin: 1rem auto;
+    }
 
+   @media screen and (max-width: 600px) {
+        nav ul li{
+        font-size: 20px;
+    }
+
+    .rubrik h1{
+        font-size: 30px;
+    }
+
+    .rubrik p{
+        font-size: 15px;
+    }
+   }
+
+
+
+
+/*@media screen and (max-width: 582px) {
+    .rubrik.info{
+        top: 80%;
+    }
+}*/
+
+@media screen and (max-width: 365px) {
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+    }
+
+    nav ul li{
+        padding: 4%;
+    }
+
+    .rubrik{
+        top: 20%;
+    }
+
+    .info{
+        top: 80%;
+    }
 }
 
-@media screen and (max-width: 636px) {
 
-}
+   
 
     
 
