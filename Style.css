@@ -220,6 +220,8 @@ h2{
         margin: 1rem auto;
     }
 
+}
+
    @media screen and (max-width: 600px) {
         nav ul li{
         font-size: 20px;
@@ -232,16 +234,8 @@ h2{
     .rubrik p{
         font-size: 15px;
     }
-   }
 
-
-
-
-/*@media screen and (max-width: 582px) {
-    .rubrik.info{
-        top: 80%;
-    }
-}*/
+}
 
 @media screen and (max-width: 365px) {
     nav ul{
@@ -262,12 +256,3 @@ h2{
         top: 80%;
     }
 }
-
-
-   
-
-    
-
-   
-
-
