@@ -274,14 +274,10 @@ h2{
     padding: 5px;
     font-size: 0.9375rem;
     background: #151515;
-    
-    
-    border: 3px solid gold;
 }
 
 .bottom span{
     color: white;
-    border: 3px solid blue;
 }
 
 .bottom a{
