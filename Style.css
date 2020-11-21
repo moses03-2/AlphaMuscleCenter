@@ -146,8 +146,10 @@ nav ul li a{
 }
 
 h2{
-    background: grey;
+    background: white;
     text-align: center;
+    color: black;
+    border: 3px solid black;
 }
 
 .card1{
