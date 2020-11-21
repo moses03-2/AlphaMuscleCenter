@@ -31,17 +31,21 @@ nav ul li{
     text-align: center;
     padding: 0;
     display: inline-block;
-    color: white;
+    color: #F9FAFA;
     font-size: clamp(2.25rem, 2vw, 2.5rem);
-    text-decoration: none;
+    text-decoration: underline;
+    background: #010101;
+   
 }
 
 nav ul li a{
     padding: 1%;
 }
 
+
+
 .rubrik{
-    color: white;
+    color: #F9FAFA;
     position: absolute;
     top: 35%;
     left: 10%;
@@ -66,7 +70,7 @@ nav ul li a{
 
 .yttre{
     position: relative;
-    background: white;
+    background: #F9FAFA;
     height: 70px;
     width: 220px;
     border-radius: 50px;
@@ -80,8 +84,8 @@ nav ul li a{
 }
 
 .yttre button{
-    background: white;
-    color: black;
+    background: #F9FAFA;
+    color: #010101;
     outline: none;
     border: none;
     font-size: 20px;
@@ -137,19 +141,19 @@ nav ul li a{
     border-radius: 10px;
     cursor: pointer;
     box-sizing: border-box;
-    background: white;
+    background: #F9FAFA;
     margin: 10px 15px;
     background-position: center;
     background-position: cover;
     transition: 0.5s;
-    color: white;
+    color: #F9FAFA;
 }
 
 h2{
-    background: white;
+    background: #F9FAFA;
     text-align: center;
-    color: black;
-    border: 3px solid black;
+    color: #010101;
+    border: 3px solid #010101;
 }
 
 .card1{
@@ -279,11 +283,11 @@ h2{
 }
 
 .bottom span{
-    color: white;
+    color: #F9FAFA;
 }
 
 .bottom a{
-    color: cyan;
+    color: #a924ac;
     text-decoration: none;
 }
 

@@ -8,13 +8,13 @@ header {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.1)),
-    url(https://images.pexels.com/photos/4046657/pexels-photo-4046657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    url(80.jpeg);
   background-position: center;
   background-size: cover;
 }
 
 .rubrik {
-  color: white;
+  color: #F9FAFA;
 }
 
 h1 {
@@ -32,8 +32,8 @@ h1 {
   width: 160px;
   height: 40px;
   border: none;
-  color: black;
-  background: white;
+  color: #010101;
+  background: #F9FAFA;
   border-radius: 4px;
   box-shadow: inset 0 0 0 0;
   transition: ease-out 0.3s;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .btn:hover {
-  box-shadow: inset 30px 0 0 0 black;
+  box-shadow: inset 30px 0 0 0 #010101;
   cursor: pointer;
 }
 
@@ -55,6 +55,7 @@ h1 {
     width: 100px;
     height: 30px;
     font-size: 20px;
+    margin-top: 20px;
   }
 
   header {
@@ -68,7 +69,7 @@ h1 {
 .priceCont{
     width: 100%;
     height: 100vh;
-    background-color: #ddd;
+    background-color: #F9FAFA;
 }
 
 .pcards{
@@ -82,9 +83,9 @@ h1 {
 
 .card{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
-    url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80) center no-repeat;
+    url(40.jpg) center no-repeat;
     background-size: cover;
-    color: #ffffff;
+    color: #F9FAFA;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.8);
@@ -105,7 +106,7 @@ h1 {
     font-weight: 300;
     color: chocolate;
     margin: 30px;
-    border-bottom: 1px groove #ffffff;
+    border-bottom: 1px groove #F9FAFA;
     padding: 10px;
 }
 
@@ -146,7 +147,7 @@ h1 {
     width: 120px;
     padding: 10px;
     background-color: chocolate;
-    color: #ddd;
+    color: #F9FAFA;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -176,7 +177,7 @@ h1 {
 }
 
 footer{
-  background: #f1f1f1;
+  background: #a9abae;
   padding: 90px 0;
 }
 
@@ -201,7 +202,7 @@ h4{
 }
 
 .social a{
-  color: #001a21;
+  color: #37486a;
   margin-right: 25px;
   font-size: 22px;
   text-decoration: none;
@@ -209,7 +210,7 @@ h4{
 }
 
 .social a:hover{
-  color: #fc5c65;
+  color: #a924ac;
 }
 
 .rightCont h5{
@@ -220,7 +221,7 @@ h4{
 .border{
   width: 100px;
   height: 4px;
-  background: #fc5c65;
+  background: #a924ac;
   margin-bottom: 20px;
 }
 
@@ -240,7 +241,7 @@ h4{
   padding: 18px 40px;
   font-size: 16px;
   color: #293043;
-  background: #ddd;
+  background: #F9FAFA;
   border: none;
   font-weight: 700;
   outline: none;
@@ -251,8 +252,8 @@ h4{
 .btn6{
   padding: 18px 40px;
   font-size: 16px;
-  color: #f1f1f1;
-  background: #fc5c65;
+  color: #F9FAFA;
+  background: #a924ac;
   border: none;
   font-weight: 700;
   outline: none;

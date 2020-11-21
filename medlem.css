@@ -8,13 +8,13 @@ header {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.1)),
-    url(https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80);
+    url(40.jpg);
   background-position: center;
   background-size: cover;
 }
 
 .rubrik {
-  color: white;
+  color: #F9FAFA;
 }
 
 h1 {
@@ -32,8 +32,8 @@ h1 {
   width: 160px;
   height: 40px;
   border: none;
-  color: black;
-  background: white;
+  color: #010101;
+  background: #F9FAFA;
   border-radius: 4px;
   box-shadow: inset 0 0 0 0;
   transition: ease-out 0.3s;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .btn:hover {
-  box-shadow: inset 30px 0 0 0 black;
+  box-shadow: inset 30px 0 0 0 #010101;
   cursor: pointer;
 }
 
@@ -55,6 +55,7 @@ h1 {
     width: 100px;
     height: 30px;
     font-size: 20px;
+    margin-top: 20px;
   }
 
   header {
@@ -75,12 +76,12 @@ h1 {
 }
 
 .info section {
-  border: 1px solid black;
-  box-shadow: 5px 5px 8px 0px black;
+  border: 1px solid #010101;
+  box-shadow: 5px 5px 8px 0px #010101;
   border-radius: 3px;
   text-align: center;
-  background: grey;
-  color: white;
+  background: #afb3b9;
+  color: #F9FAFA;
 }
 
 .info section:hover {
@@ -128,10 +129,10 @@ h1 {
 .medlem {
   max-width: 500px;
   width: 100%;
-  background: #fff;
+  background: #F9FAFA;
   margin: 20px auto;
   padding: 30px;
-  border: 1px solid black;
+  border: 1px solid #010101;
   box-shadow: 4px 4px 4px  grey;
 }
 
@@ -139,7 +140,7 @@ h1 {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
-  color: #fec107;
+  color: #21cdd6;
   text-transform: uppercase;
   text-align: center;
 }
@@ -165,7 +166,7 @@ h1 {
 .medlem .formular .fylla .textarea {
   width: 100%;
   outline: none;
-  border: 1px solid #d5dbd9;
+  border: 1px solid #F9FAFA;
   font-size: 15px;
   padding: 8px 10px;
   border-radius: 3px;
@@ -186,7 +187,7 @@ h1 {
 .medlem .formular .fylla .valja select {
   -webkit-appearance: none;
   appearance: none;
-  border: 1px solid #d5dbd9;
+  border: 1px solid #F9FAFA;
   width: 100%;
   height: 100%;
   padding: 8px 10px;
@@ -200,14 +201,14 @@ h1 {
   top: 12px;
   right: 10px;
   border: 8px solid;
-  border-color: #d5dbd9 transparent transparent transparent;
+  border-color: #F9FAFA transparent transparent transparent;
   pointer-events: none;
 }
 
 .medlem .formular .fylla .fyll:focus,
 .medlem .formular .fylla .textarea:focus,
 .medlem .formular .fylla select:focus {
-  border: 1px solid #fec107;
+  border: 1px solid #21cdd6;
 }
 
 .medlem .formular .fylla p {
@@ -233,7 +234,7 @@ h1 {
 .medlem .formular .fylla .checka .checkmarke {
   width: 15px;
   height: 15px;
-  border: 1px solid #fec107;
+  border: 1px solid #21cdd6;
   display: block;
   position: relative;
   
@@ -247,13 +248,13 @@ h1 {
   width: 5px;
   height: 2px;
   border: 2px solid;
-  border-color: transparent transparent #fff #fff;
+  border-color: transparent transparent #F9FAFA #F9FAFA;
   transform: rotate(-45deg);
   display: none;
 }
 
 .medlem .formular .fylla .checka input[type="checkbox"]:checked ~ .checkmarke{
-    background: #fec107;
+    background: #21cdd6;
 }
 
 .medlem .formular .fylla .checka input[type="checkbox"]:checked ~ .checkmarke:before{
@@ -265,15 +266,15 @@ h1 {
     padding: 8px 10px;
     font-size: 15px;
     border: 0;
-    background: #fec107;
-    color: #fff;
+    background: #21cdd6;
+    color: #F9FAFA;
     cursor: pointer;
     border-radius: 3px; 
     outline: none;
 }
 
 .medlem .formular .fylla .btn3:hover{
-    background: #ffd658;
+    background: #414141;
 }
 
 @media (max-width: 420px){
@@ -298,7 +299,7 @@ h1 {
 }
 
 footer{
-  background: #f1f1f1;
+  background: #a9abae;
   padding: 90px 0;
 }
 
@@ -323,7 +324,7 @@ h4{
 }
 
 .social a{
-  color: #001a21;
+  color: #37486a;
   margin-right: 25px;
   font-size: 22px;
   text-decoration: none;
@@ -331,7 +332,7 @@ h4{
 }
 
 .social a:hover{
-  color: #fc5c65;
+  color: #a924ac;
 }
 
 .rightCont h5{
@@ -342,7 +343,7 @@ h4{
 .border{
   width: 100px;
   height: 4px;
-  background: #fc5c65;
+  background: #a924ac;
   margin-bottom: 20px;
 }
 
@@ -362,7 +363,7 @@ h4{
   padding: 18px 40px;
   font-size: 16px;
   color: #293043;
-  background: #ddd;
+  background: #F9FAFA;
   border: none;
   font-weight: 700;
   outline: none;
@@ -373,8 +374,8 @@ h4{
 .btn6{
   padding: 18px 40px;
   font-size: 16px;
-  color: #f1f1f1;
-  background: #fc5c65;
+  color: #F9FAFA;
+  background: #a924ac;
   border: none;
   font-weight: 700;
   outline: none;
