@@ -22,6 +22,7 @@ h1 {
   text-align: center;
   padding: 2%;
   font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .hem {
@@ -39,6 +40,7 @@ h1 {
   transition: ease-out 0.3s;
   font-size: 25px;
   outline: none;
+  font-family: 'Alef', sans-serif;
 }
 
 .btn:hover {
@@ -79,6 +81,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Sarabun', sans-serif;
 }
 
 .card{
@@ -104,7 +107,7 @@ h1 {
 .card-head h2{
     font-size: 30px;
     font-weight: 300;
-    color: chocolate;
+    color: #50e0aa;
     margin: 30px;
     border-bottom: 1px groove #F9FAFA;
     padding: 10px;
@@ -146,13 +149,13 @@ h1 {
 .card-footer button{
     width: 120px;
     padding: 10px;
-    background-color: chocolate;
+    background-color: #50e0aa;
     color: #F9FAFA;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border: 2px solid chocolate;
+    border: 2px solid #50e0aa;
     border-radius: 50px;
     outline: none;
     cursor: pointer;
@@ -179,6 +182,7 @@ h1 {
 footer{
   background: #a9abae;
   padding: 90px 0;
+  font-family: 'El Messiri', sans-serif;
 }
 
 .footerCont{
@@ -195,7 +199,9 @@ h4{
   font-size: 26px;
 }
 
-
+input{
+    font-family: 'El Messiri', sans-serif;
+}
 
 .social{
   margin: 20px 0;

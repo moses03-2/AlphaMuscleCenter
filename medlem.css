@@ -22,6 +22,7 @@ h1 {
   text-align: center;
   padding: 2%;
   font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .hem {
@@ -39,6 +40,7 @@ h1 {
   transition: ease-out 0.3s;
   font-size: 25px;
   outline: none;
+  font-family: 'Alef', sans-serif;
 }
 
 .btn:hover {
@@ -100,6 +102,11 @@ h1 {
 .text h2 {
   text-transform: uppercase;
   padding-bottom: 10px;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.text p{
+  font-family: 'Gelasio', serif;
 }
 
 @media (max-width: 768px) {
@@ -129,11 +136,12 @@ h1 {
 .medlem {
   max-width: 500px;
   width: 100%;
-  background: #F9FAFA;
+  background: #e6e6e6;
   margin: 20px auto;
   padding: 30px;
   border: 1px solid #010101;
-  box-shadow: 4px 4px 4px  grey;
+  box-shadow: 4px 4px 4px  #757575;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .medlem .titel {
@@ -143,6 +151,7 @@ h1 {
   color: #21cdd6;
   text-transform: uppercase;
   text-align: center;
+  
 }
 
 .medlem .formular {
@@ -292,8 +301,6 @@ h1 {
     }
 }
 
-
-
 .leftCont{
   padding-bottom: 52px;
 }
@@ -301,6 +308,7 @@ h1 {
 footer{
   background: #a9abae;
   padding: 90px 0;
+  font-family: 'Marcellus', serif;
 }
 
 .footerCont{
@@ -316,8 +324,6 @@ footer{
 h4{
   font-size: 26px;
 }
-
-
 
 .social{
   margin: 20px 0;
@@ -369,6 +375,10 @@ h4{
   outline: none;
   border-radius: 30px;
   min-width: 260px;
+}
+
+input{
+  font-family: 'Marcellus', serif;
 }
 
 .btn6{

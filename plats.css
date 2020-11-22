@@ -22,6 +22,7 @@ h1 {
   text-align: center;
   padding: 2%;
   font-size: 4rem;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .hem {
@@ -39,6 +40,7 @@ h1 {
   transition: ease-out 0.3s;
   font-size: 25px;
   outline: none;
+  font-family: 'Alef', sans-serif;
 }
 
 .btn:hover {
@@ -78,6 +80,7 @@ main{
     display: grid;
     grid-template-columns: repeat(12, minmax(auto, 60px));
     grid-gap: 40px;
+    font-family: 'Palanquin', sans-serif;
 }
 
 .card{
@@ -161,6 +164,7 @@ main{
 footer{
   background: #a9abae;
   padding: 90px 0;
+  font-family: 'Sarabun', sans-serif;
 }
 
 .footerCont{
@@ -177,7 +181,9 @@ h4{
   font-size: 26px;
 }
 
-
+input{
+    font-family: 'Sarabun', sans-serif;
+}
 
 .social{
   margin: 20px 0;
