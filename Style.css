@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -41,8 +41,6 @@ nav ul li{
 nav ul li a{
     padding: 1%;
 }
-
-
 
 .rubrik{
     color: #F9FAFA;
@@ -180,9 +178,6 @@ h2{
         flex-direction: column;
         left: 60%;
     }
-
-
-  
 }
 
 @media screen and (max-width: 1039px) {
@@ -262,9 +257,11 @@ h2{
     .info{
         top: 80%;
     }
+
+    h1{
+        margin-top: 35px;
+    }
 }
-
-
 
 @media screen and (max-height: 890px){
     header{

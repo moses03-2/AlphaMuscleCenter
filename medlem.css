@@ -151,7 +151,6 @@ h1 {
   color: #21cdd6;
   text-transform: uppercase;
   text-align: center;
-  
 }
 
 .medlem .formular {
@@ -246,7 +245,6 @@ h1 {
   border: 1px solid #21cdd6;
   display: block;
   position: relative;
-  
 }
 
 .medlem .formular .fylla .checka .checkmarke:before {
@@ -413,7 +411,6 @@ input{
     text-align: center;
   }
 }
-
 
 @media screen and (max-width:700px){
   .btn6{
